@@ -32,7 +32,7 @@ file.addEventListener('change', function (event) {
             }
         });
     }, function (error) {
-
+        alert("Their will be no file inside the zip");
     });
 
 })
@@ -108,7 +108,7 @@ var filesInput = file.files[0];
             }
         });
     }, function (error) {
-
+        alert("Their will be no file inside the zip");
     });
 
 }
