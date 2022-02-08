@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #d4d3d3;
+}
+
+.sec ul {
+    list-style: none;
+    border-radius: 0.2em;
+    border: 2px #20a8d8 solid;
+    padding: 0px 1px;
+    word-wrap: break-word;
+}
+
+.sec li {
+    padding: 5px 10px;
+}
+
+.sec li:nth-child(even) {
+    background: #dfe6e9;
+}
+
+.sec li:hover {
+    cursor: pointer;
+}
+
+.CodeMirror {
+    font-size: 14px;
+    height: 600px;
+}
+.sec{
+    margin-top: 3%;
+    border: 2px solid black;
+    margin-bottom: 1%;
+    width: 75%;
+    /* text-align: center; */
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    background-color: white;
+}
+
+.lo{
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  /* display: contents; */
+}
+
+.heading{
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+
+.i1 {
+    padding-right: 5px;
+}
+.i2 {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+.se{
+    margin-bottom: 3%;
+}
+
+#item{
+    visibility: hidden;
+    background-color: #c4f5d8;
+    padding: 0px 0.2em;
+}
+#items{
+    visibility: hidden;
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+    background-color: #c4f5d8;
+    padding: 0px 0.2em;
+}
+
+
+#btn{
+    visibility: hidden;
+    margin: 5px;
+    margin-bottom: 8px;
+    margin-left: 23%;
+
+    padding: 5px;
+}
+#list{
+    visibility: hidden;
+}
